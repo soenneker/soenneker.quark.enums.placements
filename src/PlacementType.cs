@@ -6,7 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// An enumeration for Quark, representing placement.
 /// </summary>
 [Intellenum<string>]
-public sealed partial class PlacementTypeType
+public sealed partial class PlacementType
 {
     public static readonly PlacementType Start = new("start");
 
