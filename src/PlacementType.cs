@@ -1,11 +1,11 @@
-using Intellenum;
+using Soenneker.Gen.EnumValues;
 
 namespace Soenneker.Quark.Enums;
 
 /// <summary>
 /// An enumeration for Quark, representing placement.
 /// </summary>
-[Intellenum<string>]
+[EnumValue<string>]
 public sealed partial class PlacementType
 {
     public static readonly PlacementType Start = new("start");
