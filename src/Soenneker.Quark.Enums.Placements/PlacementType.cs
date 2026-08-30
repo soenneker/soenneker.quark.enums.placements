@@ -3,28 +3,28 @@ using Soenneker.Gen.EnumValues;
 namespace Soenneker.Quark;
 
 /// <summary>
-/// An enumeration for Quark, representing placement.
+/// Represents a placement option exposed by Quark components.
 /// </summary>
 [EnumValue<string>]
 public sealed partial class PlacementType
 {
     /// <summary>
-    /// The start.
+    /// Places content at the logical start edge.
     /// </summary>
     public static readonly PlacementType Start = new("start");
 
     /// <summary>
-    /// The end.
+    /// Places content at the logical end edge.
     /// </summary>
     public static readonly PlacementType End = new("end");
 
     /// <summary>
-    /// The top.
+    /// Places content at the top edge.
     /// </summary>
     public static readonly PlacementType Top = new("top");
 
     /// <summary>
-    /// The bottom.
+    /// Places content at the bottom edge.
     /// </summary>
     public static readonly PlacementType Bottom = new("bottom");
 }
